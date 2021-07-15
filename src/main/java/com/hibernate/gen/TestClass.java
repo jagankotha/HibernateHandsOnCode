@@ -15,6 +15,7 @@ public class TestClass {
             session.save ( employee );
             transaction.commit ( );
             session.close ( );
+
         }
     }
 }
